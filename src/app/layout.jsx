@@ -73,14 +73,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${lemonMilk.variable} ${modesticSans.variable} ${montserrat.variable} ${inter.variable} antialiased`}
+        className={`${lemonMilk.variable} ${modesticSans.variable} ${montserrat.variable} ${inter.variable} antialiased overflow-x-hidden`}
       >
         <Header />
 
         <div className="px-17.5 font-lemon tracking-[2%]">
           {children}
         </div>
-        
+
         {/* BG image */}
         <div className="fixed inset-0 -z-10">
           <Image
@@ -89,7 +89,7 @@ export default function RootLayout({ children }) {
             alt="background-image"
             fill
             priority
-            // sizes="100vw"  
+          // sizes="100vw"  
           />
         </div>
 
