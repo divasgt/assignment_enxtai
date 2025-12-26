@@ -29,3 +29,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
+
+/* Moon Animation */
+@keyframes rotate-anti-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-moon-custom {
+  animation: rotate-anti-clockwise 20s linear 1ms infinite;
+}
