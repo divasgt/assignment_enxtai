@@ -20,6 +20,7 @@ export default function EventsPage() {
             src="/images/events-page/events-page-image1.png"
             alt="Our Stargazers Spectacle Image"
             fill
+            priority
           />
 
           <h2 className="absolute bottom-10.5 left-9 font-bold text-[80px] tracking-[0%]">Our Stargazers<br />Spectacle</h2>
