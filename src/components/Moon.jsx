@@ -11,7 +11,7 @@ export default function Moon({ size = 'md', variant = 'default', className = '' 
   const containerClass = sizeClasses[size] || sizeClasses.md
 
   return (
-    <div className={`${containerClass} ${className}`}>
+    <div className={`${containerClass} ${className} z-10`}>
       {/* Ellipse 5 - Dark radial gradient shadow */}
       {/* <div
         className={`absolute inset-0 rounded-full opacity-70 ${containerClass}`}
