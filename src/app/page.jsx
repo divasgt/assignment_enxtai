@@ -1,6 +1,7 @@
 import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import Moon from "@/components/Moon";
+import TextRectangle from "@/components/TextRectangle";
 import Image from "next/image";
 
 export default function Home() {
@@ -33,16 +34,7 @@ export default function Home() {
             fill
           />
 
-          <div className="absolute bg-[#A4A4A4BF]/75 shadow-[0_4_4_#00000025] right-[109px] top-[91px] w-[550px] pl-[20px] pr-[42px] pt-10 pb-[27px]">
-            <span className="font-modestic">18/06/2023</span>
-            <h3 className="font-modestic text-[36px]   my-[10px]">Talk on Cosmic Nebula</h3>
-
-            <p className="font-modestic text-[20px]   leading-[100%] mb-[22px]">
-              Lorem ipsum dolor sit amet consectetur. Augue duis etiam pulvinar duis interdum accumsan tempor bibendum amet. Lorem ipsum dolor sit amet consectetur. Augue duis etiam pulvinar duis interdum accumsan tempor bibendum amet.Lorem ipsum dolor sit amet consectetur. Augue duis etiam pulvinar duis interdum accumsan tempor bibendum amet.
-            </p>
-
-            <button className="font-modestic text-[16px]   px-4 bg-[#F6F6F6] text-[#1E1E1E] py-2 hover:bg-[#1A1A1A] hover:text-[#F6F6F6]">Read More</button>
-          </div>
+          <TextRectangle className="right-[109px] top-[91px]" heading="Talk on Cosmic Nebula" content="Lorem ipsum dolor sit amet consectetur. Augue duis etiam pulvinar duis interdum accumsan tempor bibendum amet. Lorem ipsum dolor sit amet consectetur. Augue duis etiam pulvinar duis interdum accumsan tempor bibendum amet.Lorem ipsum dolor sit amet consectetur. Augue duis etiam pulvinar duis interdum accumsan tempor bibendum amet." />
         </div>
       </section>
 
