@@ -9,7 +9,7 @@ export default function Home() {
       <section>
         <h1 className="mt-[221px] text-[5rem] font-bold  ">Let’s travel to the edge of space</h1>
         <p className="mt-[10px] font-modestic text-2xl  ">We are a group that love to explore and learn new information related to our universe.<br />Join us and Explore</p>
-        <button className="mt-[30px] font-light tracking-[20%] border-2 border-white h-[50px] w-[220px] hover:bg-white hover:text-black duration-300 ease-linear transition-all active:bg-transparent active:border-[#AEAEAE] active:text-[#AEAEAE]">DISCOVER MORE</button>
+        <button className="mt-[30px] font-light tracking-[20%] border-2 border-white h-[50px] w-[220px] hover:bg-white hover:text-black duration-300 ease-linear transition-all active:bg-transparent active:border-[#AEAEAE] active:text-[#AEAEAE] active:duration-0">DISCOVER MORE</button>
 
         <Moon size="lg" className="absolute right-[148px] -mt-[30px]" />
 
