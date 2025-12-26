@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <main>
       <section>
-        <h1 className="mt-[221px] text-[5rem] font-bold">Let’s travel to the edge of space</h1>
-        <p className="mt-[10px] font-modestic text-2xl tracking-[2%]">We are a group that love to explore and learn new information related to our universe.<br />Join us and Explore</p>
+        <h1 className="mt-[221px] text-[5rem] font-bold  ">Let’s travel to the edge of space</h1>
+        <p className="mt-[10px] font-modestic text-2xl  ">We are a group that love to explore and learn new information related to our universe.<br />Join us and Explore</p>
         <button className="mt-[30px] font-light tracking-[20%] border-2 border-white h-[50px] w-[220px] hover:bg-white hover:text-black duration-300 ease-linear transition-all active:bg-transparent active:border-[#AEAEAE] active:text-[#AEAEAE]">DISCOVER MORE</button>
 
         <Moon size="lg" className="absolute right-[148px] -mt-[30px]" />
@@ -24,7 +24,7 @@ export default function Home() {
       </section>
 
       <section>
-        <h2 className="font-modestic text-[32px] tracking-[2%] mt-[318px]">RECENT EVENTS</h2>
+        <h2 className="font-modestic text-[32px]   mt-[318px]">RECENT EVENTS</h2>
         <div className="relative h-[560px] max-w-[1299px] max-h-[560px] mt-[10px] overflow-hidden">
           <Image
             className="absolute inset-0 h-full w-full object-cover object-center"
@@ -35,13 +35,13 @@ export default function Home() {
 
           <div className="absolute bg-[#A4A4A4BF]/75 shadow-[0_4_4_#00000025] right-[109px] top-[91px] w-[550px] pl-[20px] pr-[42px] pt-10 pb-[27px]">
             <span className="font-modestic">18/06/2023</span>
-            <h3 className="font-modestic text-[36px] tracking-[2%] my-[10px]">Talk on Cosmic Nebula</h3>
+            <h3 className="font-modestic text-[36px]   my-[10px]">Talk on Cosmic Nebula</h3>
 
-            <p className="font-modestic text-[20px] tracking-[2%] leading-[100%] mb-[22px]">
+            <p className="font-modestic text-[20px]   leading-[100%] mb-[22px]">
               Lorem ipsum dolor sit amet consectetur. Augue duis etiam pulvinar duis interdum accumsan tempor bibendum amet. Lorem ipsum dolor sit amet consectetur. Augue duis etiam pulvinar duis interdum accumsan tempor bibendum amet.Lorem ipsum dolor sit amet consectetur. Augue duis etiam pulvinar duis interdum accumsan tempor bibendum amet.
             </p>
 
-            <button className="font-modestic text-[16px] tracking-[2%] px-4 bg-[#F6F6F6] text-[#1E1E1E] py-2 hover:bg-[#1A1A1A] hover:text-[#F6F6F6]">Read More</button>
+            <button className="font-modestic text-[16px]   px-4 bg-[#F6F6F6] text-[#1E1E1E] py-2 hover:bg-[#1A1A1A] hover:text-[#F6F6F6]">Read More</button>
           </div>
         </div>
       </section>
@@ -64,13 +64,13 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className="font-lemon text-4xl leading-[190%] tracking-[2%] uppercase">wE ARE CLUB THAT LEARN, SHARE AND EXPLORE EVERYTHING RELATED TO OUR UNIVERSE.</h3>
-            <p className="mt-[18px] text-2xl font-light leading-[190%] tracking-[2%] uppercase">Dhruva is a College club, we work toward increasing knowledge about space, cosmos and everything we are still learning about. We share and learn together.</p>
+            <h3 className="font-lemon text-4xl leading-[190%]   uppercase">wE ARE CLUB THAT LEARN, SHARE AND EXPLORE EVERYTHING RELATED TO OUR UNIVERSE.</h3>
+            <p className="mt-[18px] text-2xl font-light leading-[190%]   uppercase">Dhruva is a College club, we work toward increasing knowledge about space, cosmos and everything we are still learning about. We share and learn together.</p>
           </div>
         </div>
       </section>
 
-      <p className="mt-[122px] mb-[76px] text-center text-[20px] tracking-[2%] font-bold">“Astronomy compels the soul to look upwards and leads us from this world to another”</p>
+      <p className="mt-[122px] mb-[76px] text-center text-[20px]   font-bold">“Astronomy compels the soul to look upwards and leads us from this world to another”</p>
 
       <Footer />
     </main>
