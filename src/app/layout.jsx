@@ -4,6 +4,7 @@ import "../styles/moon.css";
 import "../styles/carousel.css";
 import Image from "next/image";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import localFont from "next/font/local";
 
 // const geistSans = Geist({
@@ -91,6 +92,8 @@ export default function RootLayout({ children }) {
             // sizes="100vw"  
           />
         </div>
+
+        <Footer />
       </body>
     </html>
   )

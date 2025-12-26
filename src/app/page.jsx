@@ -1,5 +1,4 @@
 import Carousel from "@/components/Carousel";
-import Footer from "@/components/Footer";
 import Moon from "@/components/Moon";
 import TextRectangle from "@/components/TextRectangle";
 import Image from "next/image";
@@ -63,8 +62,6 @@ export default function Home() {
       </section>
 
       <p className="mt-[122px] mb-[76px] text-center text-[20px]   font-bold">“Astronomy compels the soul to look upwards and leads us from this world to another”</p>
-
-      <Footer />
     </main>
   )
 }
