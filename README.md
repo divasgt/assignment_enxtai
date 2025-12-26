@@ -2,7 +2,7 @@
 
 Converted this Figma design into a responsive frontend website.
 
-### 🔗 Live Link: https://assignment-enxtai-divasgt.vercel.app/events
+### 🔗 Live Link: https://assignment-enxtai-divasgt.vercel.app/
 
 
 ## 🛠️ Tech Stack
