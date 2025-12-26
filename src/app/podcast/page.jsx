@@ -74,7 +74,7 @@ export default function PodcastPage() {
 
         <div className="mt-[110px] grid grid-rows-2 grid-flow-col gap-x-[155px] gap-y-[50px]">
           {Array(4).fill().map((_, index) => (
-            <div className={`flex items-center gap-[33px] pb-[50px] ${index % 2 === 0 ? 'border-b-2 border-white' : ''}`}>
+            <div key={index} className={`flex items-center gap-[33px] pb-[50px] ${index % 2 === 0 ? 'border-b-2 border-white' : ''}`}>
               <span className="font-bold text-[32px]">0{index + 1}.</span>
               <div className="relative h-[150px] w-[150px] shrink-0 rounded-[20px] overflow-hidden">
                 <Image
@@ -89,7 +89,7 @@ export default function PodcastPage() {
                 <p className="font-bold">#{index==1 ? 'COSMOS' : index==2 ? 'ASTRONAUT' : 'SPACE'} #ASTRONOMY</p>
               </div>
             </div>
-            ))
+          ))
           }
         </div>
       </section>
