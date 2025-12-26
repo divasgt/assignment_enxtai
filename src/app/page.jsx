@@ -28,7 +28,7 @@ export default function Home() {
         <div className="relative h-[560px] max-w-[1299px] max-h-[560px] mt-[10px] overflow-hidden">
           <Image
             className="absolute inset-0 h-full w-full object-cover object-center"
-            src="/images/image.jpg"
+            src="/images/home-page-event.jpg"
             alt="cosmic nebula image"
             fill
           />
