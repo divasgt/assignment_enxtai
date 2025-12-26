@@ -1,20 +1,11 @@
 import Image from 'next/image';
 
-export default function Moon({ size = 'md', variant = 'default', className = '' }) {
-  // Size variants
-  const sizeClasses = {
-    sm: 'w-32 h-32',
-    md: 'w-64 h-64',
-    lg: 'w-96 h-96',
-  }
-
-  const containerClass = sizeClasses[size] || sizeClasses.md
-
+export default function Moon({ className = '', sizeClassName="w-96 h-96"}) {
   return (
-    <div className={`${containerClass} ${className} z-10`}>
+    <div className={`${sizeClassName} ${className} z-10`}>
       {/* Ellipse 5 - Dark radial gradient shadow */}
       {/* <div
-        className={`absolute inset-0 rounded-full opacity-70 ${containerClass}`}
+        className={`absolute inset-0 rounded-full opacity-70 ${sizeClassName}`}
         style={{
           background: 'radial-gradient(circle at 30% 30%, #000000 0%, #000000 50%, transparent 100%)',
         }}
@@ -22,7 +13,7 @@ export default function Moon({ size = 'md', variant = 'default', className = '' 
 
       {/* Ellipse 4 - Lighter radial gradient overlay */}
       {/* <div
-        className={`absolute inset-0 rounded-full opacity-56 ${containerClass}`}
+        className={`absolute inset-0 rounded-full opacity-56 ${sizeClassName}`}
         style={{
           background: 'radial-gradient(circle at 30% 30%, #FFFFFF 0%, transparent 70%)',
           mixBlendMode: 'overlay',
@@ -30,7 +21,7 @@ export default function Moon({ size = 'md', variant = 'default', className = '' 
       /> */}
 
       {/* Mask Group - Moon image with circular mask */}
-      <div className={`absolute inset-0 rounded-full overflow-hidden ${containerClass} bg-black`}>
+      <div className={`absolute inset-0 rounded-full overflow-hidden ${sizeClassName} bg-black`}>
         <img
           src="/images/moon/moon_PNG36.png"
           alt="Moon"
