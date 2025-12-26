@@ -1,0 +1,13 @@
+/* Ellipse 6 */
+
+.moon.eclipse-6 {
+  position: absolute;
+  left: 0%;
+  right: 25.11%;
+  top: 35.95%;
+  bottom: 0%;
+  
+  background: #000000;
+  opacity: 0.5;
+  filter: blur(71.6346px);
+}

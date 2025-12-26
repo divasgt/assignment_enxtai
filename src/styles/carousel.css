@@ -1,0 +1,13 @@
+.swiper-slide {
+  transition-timing-function: ease-out !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #a855f7 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+  transform: scale(0.5);
+}
