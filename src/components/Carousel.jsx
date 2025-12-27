@@ -17,7 +17,7 @@ const images = [
   "/images/carousel-images/image5.jpg",
 ];
 
-export default function Carousel({className = ""}) {
+export default function Carousel({ className = "" }) {
   return (
     <div className={`w-full ${className}`}>
       <Swiper
@@ -44,7 +44,7 @@ export default function Carousel({className = ""}) {
         className="max-w-screen"
       >
         {images.map((src, index) => (
-          <SwiperSlide key={index} className="max-w-[600px]">
+          <SwiperSlide key={index} className="max-w-[280px] sm:max-w-[450px] lg:max-w-[600px]">
             <img
               src={src}
               alt={`Slide ${index}`}

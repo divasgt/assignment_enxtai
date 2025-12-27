@@ -5,12 +5,12 @@ export default function PodcastPage() {
   return (
     <main>
       <section>
-        <h1 className="relative uppercase text-[200px] tracking-[6%] mt-[148px] font-extrabold">
+        <h1 className="relative uppercase text-5xl sm:text-8xl lg:text-[200px] tracking-[6%] mt-24 sm:mt-32 lg:mt-[148px] font-extrabold">
           PODCASTS
-          <Moon sizeClassName="w-[183px] h-[183px]" className="absolute top-[50px] left-[146px]" />
+          <Moon sizeClassName="w-16 h-16 sm:w-28 sm:h-28 lg:w-[183px] lg:h-[183px] hidden lg:block" className="absolute top-2 sm:top-6 lg:top-[10px] left-10 sm:left-24 lg:left-[136px]" />
         </h1>
 
-        <div className="relative overflow-hidden mt-[11px] w-full h-[600px] rounded-[40px]">
+        <div className="relative overflow-hidden mt-4 sm:mt-6 lg:mt-[11px] w-full h-64 sm:h-[400px] lg:h-[600px] rounded-xl sm:rounded-2xl lg:rounded-[40px]">
           <Image
             className="absolute inset-0 h-full w-full object-cover object-center"
             src="/images/podcast-page/podcast-page-image1.png"
@@ -18,9 +18,9 @@ export default function PodcastPage() {
             fill
           />
 
-          <div className="absolute bottom-[25px] left-[90px] flex flex-col gap-2">
-            <span className="font-modestic tracking-[4%]">Available on</span>
-            <svg width="171" height="38" viewBox="0 0 171 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div className="absolute bottom-3 sm:bottom-5 lg:bottom-[25px] left-4 sm:left-12 lg:left-[90px] flex flex-col gap-1 sm:gap-2">
+            <span className="font-modestic tracking-[4%] text-xs sm:text-sm lg:text-base">Available on</span>
+            <svg className="w-28 h-6 sm:w-40 sm:h-8 lg:w-[171px] lg:h-[38px]" viewBox="0 0 171 38" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M53.1481 5.93416C52.5227 3.59714 50.6859 1.76058 48.3489 1.135C44.1174 3.57628e-07 27.1415 0 27.1415 0C27.1415 0 10.1658 3.57628e-07 5.93414 1.135C3.59714 1.76058 1.76058 3.59714 1.135 5.93416C3.57628e-07 10.1658 0 19 0 19C0 19 3.57628e-07 27.8342 1.135 32.0659C1.76058 34.4029 3.59714 36.2395 5.93414 36.8649C10.1658 38 27.1415 38 27.1415 38C27.1415 38 44.1174 38 48.3489 36.8649C50.6859 36.2395 52.5227 34.4029 53.1481 32.0659C54.2832 27.8342 54.2832 19 54.2832 19C54.2832 19 54.2786 10.1658 53.1481 5.93416Z" fill="white" />
               <path d="M21.7081 27.1423L35.8106 19.0008L21.7081 10.8591V27.1423Z" fill="black" />
               <path d="M65.7446 24.7068L59.6496 2.69507H64.9671L67.1031 12.6732C67.6482 15.1309 68.0458 17.2266 68.305 18.9603H68.4614C68.6402 17.7181 69.0424 15.6358 69.6635 12.7089L71.8753 2.69507H77.1928L71.0218 24.7068V35.2659H65.7402V24.7068H65.7446Z" fill="white" />
@@ -34,7 +34,7 @@ export default function PodcastPage() {
           </div>
         </div>
 
-        <div className="relative overflow-hidden mt-[39px] w-full h-[600px] rounded-[40px]">
+        <div className="relative overflow-hidden mt-6 sm:mt-8 lg:mt-[39px] w-full h-64 sm:h-[400px] lg:h-[600px] rounded-xl sm:rounded-2xl lg:rounded-[40px]">
           <Image
             className="absolute inset-0 h-full w-full object-cover object-center"
             src="/images/podcast-page/podcast-page-image2.png"
@@ -42,9 +42,9 @@ export default function PodcastPage() {
             fill
           />
 
-          <div className="absolute bottom-[25px] left-[90px] flex flex-col gap-2">
-            <span className="font-modestic tracking-[4%]">Available on</span>
-            <svg width="171" height="38" viewBox="0 0 171 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div className="absolute bottom-3 sm:bottom-5 lg:bottom-[25px] left-4 sm:left-12 lg:left-[90px] flex flex-col gap-1 sm:gap-2">
+            <span className="font-modestic tracking-[4%] text-xs sm:text-sm lg:text-base">Available on</span>
+            <svg className="w-28 h-6 sm:w-40 sm:h-8 lg:w-[171px] lg:h-[38px]" viewBox="0 0 171 38" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M53.1481 5.93416C52.5227 3.59714 50.6859 1.76058 48.3489 1.135C44.1174 3.39746e-07 27.1415 0 27.1415 0C27.1415 0 10.1658 3.39746e-07 5.93414 1.135C3.59714 1.76058 1.76058 3.59714 1.135 5.93416C3.39746e-07 10.1658 0 19 0 19C0 19 3.39746e-07 27.8342 1.135 32.0659C1.76058 34.4029 3.59714 36.2395 5.93414 36.8649C10.1658 38 27.1415 38 27.1415 38C27.1415 38 44.1174 38 48.3489 36.8649C50.6859 36.2395 52.5227 34.4029 53.1481 32.0659C54.2832 27.8342 54.2832 19 54.2832 19C54.2832 19 54.2786 10.1658 53.1481 5.93416Z" fill="white" />
               <path d="M21.7081 27.1423L35.8106 19.0008L21.7081 10.8591V27.1423Z" fill="#AD8066" />
               <path d="M65.7446 24.7068L59.6496 2.69507H64.9671L67.1031 12.6732C67.6482 15.1309 68.0458 17.2266 68.305 18.9603H68.4614C68.6402 17.7181 69.0424 15.6358 69.6635 12.7089L71.8753 2.69507H77.1928L71.0218 24.7068V35.2659H65.7402V24.7068H65.7446Z" fill="white" />
@@ -59,24 +59,24 @@ export default function PodcastPage() {
         </div>
       </section>
 
-      <section className="mt-[140px]">
-        <div className="flex items-center gap-[35px]">
-          <h2 className="font-bold text-[80px] shrink-0">Podcast of<br />the week</h2>
-          <div className="flex flex-col gap-3 items-start">
-            <p className="font-inter text-[20px] leading-[120%] mr-[55px]">Lorem ipsum dolor sit amet consectetur. Diam donec egestas est leo malesuada massa quisque vitae at. Aliquet scelerisque magna nulla aenean euismod sed. Adipiscing placerat quisque eu rhoncus consequat.</p>
-            <button className="text-[20px] font-modestic tracking-[2%] border-2 border-white px-[26px] py-2 rounded-[10px] flex items-center gap-[18px] hover:bg-white hover:text-[#1E1E1E] ease-linear duration-300 transition-all active:duration-0 active:text-[#A8A8A8] active:border-[#A8A8A8] active:bg-transparent">Learn More
-              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.81735 1.99217C2.81735 0.891923 3.70927 0 4.80951 0H16.0789C17.1791 0 18.0711 0.891923 18.0711 1.99217V13.2616C18.0711 14.3618 17.1791 15.2537 16.0789 15.2537C14.9787 15.2537 14.0867 14.3618 14.0867 13.2616V6.80168L3.40084 17.4876C2.62285 18.2656 1.36148 18.2656 0.583492 17.4876C-0.194497 16.7096 -0.194497 15.4482 0.583492 14.6702L11.2694 3.98433H4.80951C3.70927 3.98433 2.81735 3.09241 2.81735 1.99217Z" fill="currentColor" />
+      <section className="mt-16 sm:mt-24 lg:mt-[140px]">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start gap-6 sm:gap-8 lg:gap-[35px]">
+          <h2 className="font-bold text-3xl sm:text-5xl lg:text-[80px] shrink-0 text-center lg:text-left">Podcast of<br />the week</h2>
+          <div className="flex flex-col gap-3 items-center lg:items-start">
+            <p className="font-inter text-sm sm:text-base lg:text-[20px] leading-[140%] lg:leading-[120%] text-center lg:text-left px-4 lg:px-0 mr-0 lg:mr-[55px]">Lorem ipsum dolor sit amet consectetur. Diam donec egestas est leo malesuada massa quisque vitae at. Aliquet scelerisque magna nulla aenean euismod sed. Adipiscing placerat quisque eu rhoncus consequat.</p>
+            <button className="text-sm sm:text-base lg:text-[20px] font-modestic tracking-[2%] border-2 border-white px-4 sm:px-5 lg:px-[26px] py-1.5 sm:py-2 rounded-lg lg:rounded-[10px] flex items-center gap-2 sm:gap-3 lg:gap-[18px] hover:bg-white hover:text-[#1E1E1E] ease-linear duration-300 transition-all active:duration-0 active:text-[#A8A8A8] active:border-[#A8A8A8] active:bg-transparent">Learn More
+              <svg className="w-4 h-4 sm:w-5 sm:h-5 lg:w-[19px] lg:h-[19px]" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fillRule="evenodd" clipRule="evenodd" d="M2.81735 1.99217C2.81735 0.891923 3.70927 0 4.80951 0H16.0789C17.1791 0 18.0711 0.891923 18.0711 1.99217V13.2616C18.0711 14.3618 17.1791 15.2537 16.0789 15.2537C14.9787 15.2537 14.0867 14.3618 14.0867 13.2616V6.80168L3.40084 17.4876C2.62285 18.2656 1.36148 18.2656 0.583492 17.4876C-0.194497 16.7096 -0.194497 15.4482 0.583492 14.6702L11.2694 3.98433H4.80951C3.70927 3.98433 2.81735 3.09241 2.81735 1.99217Z" fill="currentColor" />
               </svg>
             </button>
           </div>
         </div>
 
-        <div className="mt-[110px] grid grid-rows-2 grid-flow-col gap-x-[155px] gap-y-[50px]">
+        <div className="mt-12 sm:mt-16 lg:mt-[110px] grid grid-cols-1 lg:grid-rows-2 lg:grid-flow-col gap-6 sm:gap-8 lg:gap-x-[155px] lg:gap-y-[50px]">
           {Array(4).fill().map((_, index) => (
-            <div key={index} className={`flex items-center gap-[33px] pb-[50px] ${index % 2 === 0 ? 'border-b-2 border-white' : ''}`}>
-              <span className="font-bold text-[32px]">0{index + 1}.</span>
-              <div className="relative h-[150px] w-[150px] shrink-0 rounded-[20px] overflow-hidden">
+            <div key={index} className={`flex items-center gap-4 sm:gap-6 lg:gap-[33px] pb-6 sm:pb-8 lg:pb-[50px] ${index % 2 === 0 ? 'border-b-2 border-white' : 'lg:border-b-0 border-b-2 '}`}>
+              <span className="font-bold text-xl sm:text-2xl lg:text-[32px]">0{index + 1}.</span>
+              <div className="relative h-20 w-20 sm:h-28 sm:w-28 lg:h-[150px] lg:w-[150px] shrink-0 rounded-lg sm:rounded-xl lg:rounded-[20px] overflow-hidden">
                 <Image
                   src={`/images/podcast-page/podcast-of-the-week/image${index + 1}.png`}
                   alt={`podcast-${index + 1}`}
@@ -84,9 +84,9 @@ export default function PodcastPage() {
                   className="object-cover"
                 />
               </div>
-              <div className="flex flex-col gap-1.25">
-                <h3 className="font-bold text-[20px]">SPACEBUZZ EP. {index + 1}</h3>
-                <p className="font-bold">#{index==1 ? 'COSMOS' : index==2 ? 'ASTRONAUT' : 'SPACE'} #ASTRONOMY</p>
+              <div className="flex flex-col gap-1 lg:gap-1.25">
+                <h3 className="font-bold text-sm sm:text-base lg:text-[20px]">SPACEBUZZ EP. {index + 1}</h3>
+                <p className="font-bold text-xs sm:text-sm lg:text-base">#{index == 1 ? 'COSMOS' : index == 2 ? 'ASTRONAUT' : 'SPACE'} #ASTRONOMY</p>
               </div>
             </div>
           ))
@@ -94,7 +94,7 @@ export default function PodcastPage() {
         </div>
       </section>
 
-      <p className="mt-[122px] mb-[76px] text-center text-[20px]   font-bold">“Astronomy compels the soul to look upwards and leads us from this world to another”</p>
+      <p className="mt-16 sm:mt-24 lg:mt-[122px] mb-12 sm:mb-16 lg:mb-[76px] text-center text-sm sm:text-base lg:text-[20px] font-bold px-4 lg:px-0">"Astronomy compels the soul to look upwards and leads us from this world to another"</p>
 
     </main>
   )

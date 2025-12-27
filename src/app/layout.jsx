@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
 
-        <div className="px-17.5 font-lemon tracking-[2%]">
+        <div className="px-4 sm:px-8 lg:px-17.5 font-lemon tracking-[2%]">
           {children}
         </div>
 
